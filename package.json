@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Testing this stuff out",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "session-file-store": "^1.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --ignore sessions/ app.js"
+  },
+  "author": "Darryn Nyberg",
+  "license": "MIT"
+}
